@@ -1,3 +1,3 @@
-# web-platform-b211x7
+# Basic Chess Timer
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-b211x7)
+> IN PROGRESS
