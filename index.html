@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Chess Timer | by JAXA</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <section class="timer">
+      <div class="options">
+        <div class="option">
+          <p>5 + 3</p>
+        </div>
+        <div class="option">
+          <p>10 + 5</p>
+        </div>
+        <div class="option">
+          <p>15 + 10</p>
+        </div>
+      </div>
+
+      <div class="timer-body hide">
+        <div class="single-timer" id="left-timer">
+          <span class="head-timer selected"></span>
+          <div class="time">
+            <p>00:00</p>
+          </div>
+        </div>
+        <div class="single-timer" id="right-timer">
+          <span class="head-timer"></span>
+          <div class="time">
+            <p>00:00</p>
+          </div>
+        </div>
+        <button class="btn switch" id="switch">SWITCH</button>
+      </div>
+
+      <div class="btn-wrapper">
+        <button class="btn start">START</button>
+        <button class="btn stop hide">STOP</button>
+        <button class="btn pause hide">PAUSE</button>
+      </div>
+    </section>
+  </body>
+</html>
